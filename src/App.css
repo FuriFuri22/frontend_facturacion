@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  padding-top: 60px; /* Ajusta este valor según la altura de tu cabecera */
+  margin-left: 250px; /* Ajusta este valor según el ancho de tu barra lateral */
+}
+
+@media (max-width: 768px) {
+  main {
+    margin-left: 0;
+  }
+}
