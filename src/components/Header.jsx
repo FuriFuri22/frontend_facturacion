@@ -13,7 +13,7 @@ const Header = () => {
   }
   return (
     <header className="header">
-      <h1>Mi Sistema de Facturación</h1>
+      <h1>Sistema de control de stock</h1>
       <button className="menu-toggle" onClick={toggleMenu}>
         ☰
       </button>
@@ -27,7 +27,7 @@ const Header = () => {
       </nav>
       <nav className={`sidebar-nav ${menuOpen ? 'open' : ''}`}>
         <ul>
-          <li><Link to="/user" onClick={closeMenu} >Información del Usuario</Link></li>
+          <li><Link to="/stock" onClick={closeMenu} >Vista de stock</Link></li>
           <li><Link to="/clientes" onClick={closeMenu} >Lista de Clientes</Link></li>
         </ul>
       </nav>

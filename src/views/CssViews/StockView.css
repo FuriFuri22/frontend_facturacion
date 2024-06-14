@@ -1,0 +1,19 @@
+.stock-view-container {
+    padding: 20px;
+  }
+  
+  .stock-view-content {
+    display: flex;
+  }
+  
+  .factura-container {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .list-stock-container {
+    flex: 3;
+    height: 80vh; /* Ajusta la altura según sea necesario */
+    overflow-y: auto;
+  }
+  
